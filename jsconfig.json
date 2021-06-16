@@ -1,0 +1,17 @@
+{
+  
+  "jumpToAliasFile.alias": {
+    "@": "/Users/xxx/project/src",
+  },
+  "jumpToAliasFile.webpeckConfigPath": "./webpack.config.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "styles/*": ["src/config/*"],
+      "components/*": ["src/components/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

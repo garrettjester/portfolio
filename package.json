@@ -1,15 +1,25 @@
 {
-  "name": "portolio-site",
+  "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "framer-motion": "^4.1.17",
+    "less": "^4.1.1",
     "next": "10.2.3",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-div-100vh": "^0.6.0",
+    "react-dom": "17.0.2",
+    "react-modal": "^3.14.3",
+    "react-reveal": "^1.2.2",
+    "sass": "^1.35.1"
   }
 }

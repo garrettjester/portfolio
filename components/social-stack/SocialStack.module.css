@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin: 0 -10px;
+}
+
+.item {
+  height: 28px;
+  width: 28px;
+  margin: 0 10px;
+}
