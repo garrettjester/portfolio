@@ -1,4 +1,4 @@
-import Head from "next/dist/next-server/lib/head";
+import SEOHead from "components/SEOHead";
 import Scaffold from "../../components/scaffold";
 import Fade from "react-reveal/Fade";
 import Button from "../../components/button";
@@ -6,12 +6,10 @@ import Button from "../../components/button";
 export default function Bio() {
   return (
     <div className="fullTile">
-      <Head>
-        <title>Bio | Garrett Jester</title>
-        <meta name="description" content="A little about me." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-     
+       <SEOHead
+        title={"Bio | Garrett Jester"}
+        description="A bit about my background."
+      />
       <Scaffold>
         <div className="container">
           <Fade bottom>

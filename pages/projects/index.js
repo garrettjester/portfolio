@@ -1,5 +1,4 @@
-import Head from "next/dist/next-server/lib/head";
-import Image from "next/image";
+import SEOHead from "components/SEOHead";
 import styles from "./Projects.module.scss";
 import Scaffold from "../../components/scaffold";
 import { Grid } from "node_modules/@material-ui/core/index";
@@ -78,11 +77,10 @@ export default function Projects({}) {
 
   return (
     <div className="fullTile">
-      <Head>
-        <title>Projects | Garrett Jester</title>
-        <meta name="description" content="Some of my work." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+       <SEOHead
+        title={"Projects | Garrett Jester"}
+        description="Some of the project teams I've managed or contributed to."
+      />
       <Scaffold>
         <div style={{ width: "100%" }} className="container">
           <Fade bottom>

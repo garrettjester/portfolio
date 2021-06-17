@@ -1,5 +1,5 @@
 import Fade from "react-reveal/Fade";
-import Head from "next/dist/next-server/lib/head";
+import SEOHead from "components/SEOHead";
 import Scaffold from "../../components/scaffold";
 import Image from "next/image";
 import Grid from "@material-ui/core/Grid";
@@ -35,14 +35,10 @@ function Writing({ articles }) {
 
   return (
     <div className="fullTile">
-      <Head>
-        <title>Writing | Garrett Jester</title>
-        <meta
-          name="description"
-          content="Some writing about tech and entrepreneurship."
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+       <SEOHead
+        title={"Writing | Garrett Jester"}
+        description="Articles I've written about tech, entrepreneurship, or project management."
+      />
       <Scaffold>
         <div className="container">
           <Fade bottom>

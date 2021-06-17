@@ -61,7 +61,7 @@ export default function ContactModal() {
         </div>
         <p style={{ padding: 0, marginTop: "8px", maxWidth: "500px" }}>
           Building a unicorn 🦄 ? Interested in hiring me as a consultant? Drop
-          me me a note and I'll get back to you.
+          me a note and I'll get back to you.
         </p>
         <form onSubmit={onSubmit}>
           <Grid container spacing={2}>
