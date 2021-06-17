@@ -2,7 +2,7 @@ import SEOHead from "components/SEOHead";
 import styles from "./Projects.module.scss";
 import Scaffold from "../../components/scaffold";
 import { Grid } from "node_modules/@material-ui/core/index";
-import Fade from "react-reveal/fade";
+import Fade from "react-reveal/Fade";
 
 export default function Projects({}) {
   const projects = [
