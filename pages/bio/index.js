@@ -41,7 +41,7 @@ export default function Bio() {
               <li>preserving our pale blue dot</li>
             </ul>
             <p>
-              I've been a vegetarian for 4 years, I'm a Star Wars and GOT
+              I've been a vegetarian for 6 years, I'm a Star Wars and GOT
               fanatic, and I love house music 🎧.
             </p>
             <div style={{paddingTop: '30px'}}>

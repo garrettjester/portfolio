@@ -3,10 +3,10 @@ import { createMuiTheme } from "@material-ui/core/styles";
 const theme = createMuiTheme({
   root: {
     "& label.Mui-focused": {
-      color: "green",
+      color: "black",
     },
     "& .MuiInput-underline:after": {
-      borderBottomColor: "green",
+      borderBottomColor: "black",
     },
   },
   primary: {

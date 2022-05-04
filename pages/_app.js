@@ -1,10 +1,9 @@
 import "../styles/globals.scss";
-import { useState, useEffect, Fragment } from "react";
+import { useEffect, Fragment } from "react";
 import NProgress from "nprogress";
 import Router from "next/router";
 import Header from "../components/header";
 import Footer from "../components/simple-footer";
-import Button from "components/button";
 import SiteNav from "../components/nav-menu";
 import ContactModal from "components/contact-modal";
 import { ThemeProvider } from "@material-ui/core/styles";
@@ -12,9 +11,7 @@ import { MenuProvider } from "components/menu-drawer/MenuContext";
 import { ModalProvider } from "components/contact-modal/ModalContext";
 import MenuDrawer from "components/menu-drawer/MenuDrawer";
 import theme from "styles/theme";
-import useModalContext from "components/contact-modal/useModalContext";
 
-//import ReactGA from "react-ga"; // Google Analytics
 
 // Progress bar to be displayed on page transition.
 NProgress.configure({ showSpinner: false });
@@ -23,7 +20,8 @@ Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
 const App = ({ Component, pageProps }) => {
-  // IMPORTANT: Remove server-side styles for Material-UI
+  // IMPORTANT: 
+  // Removes server-side styles for Material-UI to prevent flickering.
   useEffect(() => {
     const jssStyles = document.querySelector("#jss-server-side");
     if (jssStyles) {
