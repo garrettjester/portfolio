@@ -45,6 +45,7 @@ export default function Bio() {
               fanatic, and I love house music 🎧.
             </p>
             <div style={{paddingTop: '30px'}}>
+              {/** Add resume download link here. */}
               <a target="_blank" href={process.env.NEXT_PUBLIC_RESUME_URL}>
                 <Button>Download CV</Button>
               </a>
