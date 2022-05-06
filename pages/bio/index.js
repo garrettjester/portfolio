@@ -45,7 +45,7 @@ export default function Bio() {
               fanatic, and I love house music 🎧.
             </p>
             <div style={{paddingTop: '30px'}}>
-              <a target="_blank" href="https://jgj-portfolio.s3.amazonaws.com/Garrett_Jester.pdf">
+              <a target="_blank" href={process.env.NEXT_PUBLIC_RESUME_URL}>
                 <Button>Download CV</Button>
               </a>
             </div>

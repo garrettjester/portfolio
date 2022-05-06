@@ -39,7 +39,7 @@ export default function Home() {
               <div className={styles.actionContainer}>
                 <div className={styles.action}>
                   <a
-                    href="https://jgj-portfolio.s3.amazonaws.com/Garrett_Jester.pdf"
+                    href={process.env.NEXT_PUBLIC_RESUME_URL}
                     target="_blank"
                   >
                     <Button type="secondary">Download CV</Button>
