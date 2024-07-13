@@ -16,12 +16,13 @@ export default function Bio() {
             <h4>My story</h4>
             <p>
               I grew up in a small Philadelphia suburb (<a href="https://en.wikipedia.org/wiki/Landenberg,_Pennsylvania">Landenberg, PA</a>). 
-              I spent most of my spare time in the woods as a kid, away from electronics. 
+              I spent most of my spare time in the outdoors as a kid, away from electronics. 
             </p>
             <p>
               In high school, I learned Photoshop and taught myself to code. I quickly found a knack for
-              visualizing and building interfaces from scratch. I founded my first company, <a href="https://www.wrlds.io">WRLDS</a>, alongside two veteran
-              engineers when I was 18.
+              visualizing and building interfaces from scratch. Fascinated by the impact that mobile apps 
+              were having on the social lives of my generation, I founded my first company, <a href="https://www.wrlds.io">WRLDS</a>, 
+              alongside two veteran engineers when I was 18.
             </p>
             <p>
               I attended Cornell University 🐻. After graduating in 2020 with a
@@ -32,7 +33,6 @@ export default function Bio() {
             <p>In my 6+ years working in digital product development, I've been fortunate to wear many hats. 
               I care immensely about the look and feel of the products I build, but I also know the technical
               and business constraints under which all successful product teams must operate.
-
             </p>
             <p>My long-term interests are in:</p>
             <ul>
@@ -41,8 +41,8 @@ export default function Bio() {
               <li>preserving our pale blue dot</li>
             </ul>
             <p>
-              I've been a vegetarian for 6 years, I'm a Star Wars and GOT
-              fanatic, and I love house music 🎧.
+              I'm a Star Wars and Game of Thrones fanatic. I've spent time working internationally 
+              (in both Medellin, Colombia and Mexico City) but somehow always return to NYC :).
             </p>
             <div style={{paddingTop: '30px'}}>
               {/** Add resume download link here. */}
