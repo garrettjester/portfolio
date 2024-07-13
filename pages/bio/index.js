@@ -22,7 +22,7 @@ export default function Bio() {
               In high school, I learned Photoshop and taught myself to code. I quickly found a knack for
               visualizing and building interfaces from scratch. Fascinated by the impact that mobile apps 
               were having on the social lives of my generation, I founded my first company, <a href="https://www.wrlds.io">WRLDS</a>, 
-              alongside two veteran engineers when I was 18.
+              alongside two other engineers when I was 18.
             </p>
             <p>
               I attended Cornell University 🐻. After graduating in 2020 with a
