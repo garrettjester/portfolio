@@ -43,7 +43,7 @@ export default function Bio() {
             </ul>
             <p>
               I'm a Star Wars and Game of Thrones fanatic. I've spent time working internationally 
-              (in both Medellin, Colombia 🇨🇴 and Mexico City 🇲🇽) but somehow always return to NYC :).
+              (in both Medellin, Colombia 🇨🇴 and Mexico City 🇲🇽), but somehow always return to NYC :).
             </p>
             <div style={{paddingTop: '30px'}}>
               {/** Add resume download link here. */}
