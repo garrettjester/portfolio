@@ -13,6 +13,7 @@ function Writing({ articles }) {
   // DISPLAY ARTICLES IN GRID
   const renderArticles = () => {
     return articles.map((article) => {
+      const firstImage = (article['description']).toString().match(/<img[^>]+src="([^">]+)"/)[1]
       return (
         <Grid item xs={12} sm={12} md={6} lg={4}>
           <a href={article.link} target="_blank">
@@ -20,7 +21,7 @@ function Writing({ articles }) {
               <div className={styles.thumbnail}>
                 <Image
                   className={styles.image}
-                  src={article.thumbnail}
+                  src={firstImage}
                   loader={loader}
                   layout="fill"
                 />

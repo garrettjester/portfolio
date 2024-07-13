@@ -16,7 +16,7 @@ export default function Bio() {
             <h4>My story</h4>
             <p>
               I grew up in a small Philadelphia suburb (<a href="https://en.wikipedia.org/wiki/Landenberg,_Pennsylvania">Landenberg, PA</a>). 
-              I spent most of my spare time in the outdoors as a kid, away from electronics. 
+              I spent most of my spare time outdoors as a kid, away from electronics. 
             </p>
             <p>
               In high school, I learned Photoshop and taught myself to code. I quickly found a knack for
@@ -27,7 +27,8 @@ export default function Bio() {
             <p>
               I attended Cornell University 🐻. After graduating in 2020 with a
               B.A. in Economics, I took a gap year to focus on WRLDS and other
-              side projects. I launched <a href="https://www.khyber.io">Khyber Labs</a> in April of 2021.
+              side projects. I launched <a href="https://www.khyber.io">Khyber Labs</a> in April of 2021. After my gap year,
+              I moved to NYC and began working in product for small and medium-sized tech companies.
             </p>
 
             <p>In my 6+ years working in digital product development, I've been fortunate to wear many hats. 
@@ -42,7 +43,7 @@ export default function Bio() {
             </ul>
             <p>
               I'm a Star Wars and Game of Thrones fanatic. I've spent time working internationally 
-              (in both Medellin, Colombia and Mexico City) but somehow always return to NYC :).
+              (in both Medellin, Colombia 🇨🇴 and Mexico City 🇲🇽) but somehow always return to NYC :).
             </p>
             <div style={{paddingTop: '30px'}}>
               {/** Add resume download link here. */}
